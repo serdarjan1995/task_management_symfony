@@ -1,0 +1,42 @@
+{% extends '::template.html.twig' %}
+
+{% block title %}New Job Type{% endblock %}
+{% block pagename %}New Job Type Form{% endblock %}
+{% block content %}
+    <div class="main-content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="widget">
+                    <div class="widget-content-white glossed">
+                        <div class="padded">
+                            <form action="{{ path('job_type_add') }}" method="post" role="form">
+                                <h3 class="form-title form-title-first"><i class="icon-terminal"></i> New Job Type </h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Job Type</label>
+                                            <input type="text" name="jobtype" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <input type="submit" class="btn btn-primary" value="Add New">
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+
+
+
+{% endblock %}
+
+{% block stylesheets %}
+
+{% endblock %}

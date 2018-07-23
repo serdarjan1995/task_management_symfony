@@ -1,0 +1,51 @@
+job_job_homepage:
+    path:     /job/
+    defaults: { _controller: JobJobBundle:Default:index }
+
+job_add:
+    path:     /job/add/
+    defaults: { _controller: JobJobBundle:Default:newJob }
+
+job_assign:
+    path:     /job/assign/
+    defaults: { _controller: JobJobBundle:Default:assign }
+
+job_show:
+    path:     /job/show/
+    defaults: { _controller: JobJobBundle:Default:display }
+
+job_delete:
+    path:     /job/delete/{job}
+    defaults: { _controller: JobJobBundle:Default:deleteJob }
+
+job_edit:
+    path:     /job/edit/{job}
+    defaults: { _controller: JobJobBundle:Default:editJob }
+
+job_update:
+    path:     /job/update/{job}
+    defaults: { _controller: JobJobBundle:Default:updateJob }
+
+job_type_add:
+    path:     /jobtype/add
+    defaults: { _controller: JobJobBundle:JobType:addJobType }
+
+job_type_new:
+    path:     /jobtype/new
+    defaults: { _controller: JobJobBundle:JobType:newJobType }
+
+job_type_edit:
+    path:     /jobtype/edit/{jobtype}
+    defaults: { _controller: JobJobBundle:JobType:editJobType }
+
+job_type_update:
+    path:     /jobtype/update/{jobtype}
+    defaults: { _controller: JobJobBundle:JobType:updateJobType }
+
+job_type_delete:
+    path:     /jobtype/delete/{jobtype}
+    defaults: { _controller: JobJobBundle:JobType:deleteJobType }
+
+job_type_show:
+    path:     /jobtype/show
+    defaults: { _controller: JobJobBundle:JobType:showJobType }

@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25be45c8-fafd-4daf-8470-e8aec8431b89" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/AppCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/AppCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/bilet/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/bilet/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/bilet/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/bilet/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/bilet/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/bilet/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/bilet/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/bilet/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/kategori/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/kategori/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/kategori/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/kategori/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/kategori/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/kategori/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/kategori/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/kategori/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/sube/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/sube/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/sube/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/sube/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/sube/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/sube/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/sube/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/Resources/views/sube/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/config_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/config_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/config_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/config_prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/config_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/config_test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/parameters.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/parameters.yml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/routing_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/routing_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/AdminManagerBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/AdminManagerBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/DependencyInjection/AdminManagerExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/DependencyInjection/AdminManagerExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/DependencyInjection/Configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/DependencyInjection/Configuration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Tests/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Admin/ManagerBundle/Tests/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/ClientTicketBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/ClientTicketBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/BiletController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/BiletController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/KategoriController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/KategoriController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/SiparisController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/SiparisController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/SubeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Controller/SubeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/DependencyInjection/ClientTicketExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/DependencyInjection/ClientTicketExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/DependencyInjection/Configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/DependencyInjection/Configuration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Entity/Bilet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Entity/Bilet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Entity/Kategori.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Entity/Kategori.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Entity/Rota.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Entity/Rota.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Entity/Sube.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Entity/Sube.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Form/BiletType.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Form/BiletType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Form/KategoriType.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Form/KategoriType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Form/SubeType.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Form/SubeType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Repository/BiletRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Repository/BiletRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Repository/KategoriRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Repository/KategoriRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Repository/RotaRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Repository/RotaRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Repository/SubeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Repository/SubeRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/routing/bilet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/routing/bilet.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/routing/kategori.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/routing/kategori.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/routing/sube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/routing/sube.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Default/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Default/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Default/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Default/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Siparis/basarili.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Siparis/basarili.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Siparis/duzenle.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Siparis/duzenle.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Siparis/siparis-listesi.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Siparis/siparis-listesi.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Siparis/yeni-siparis.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Resources/views/Siparis/yeni-siparis.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Tests/Controller/BiletControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Tests/Controller/BiletControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Tests/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Tests/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Tests/Controller/KategoriControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Tests/Controller/KategoriControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Tests/Controller/SubeControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/src/Client/TicketBundle/Tests/Controller/SubeControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/tests/AppBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/var/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/var/SymfonyRequirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/var/cache/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/var/cache/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/var/logs/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/var/logs/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/var/sessions/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/var/sessions/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/web/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/web/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/web/app_dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/web/app_dev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/web/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/web/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/web/assets/css/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/web/assets/css/my-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/web/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/web/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/web/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enuygun-code-camp/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../enuygun-code-camp/web/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otel/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../otel/src/Controller/DefaultController.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../otel/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../otel/src/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doctrine.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../otel/config/packages/doctrine.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getRe</find>
+      <find>Bla</find>
+      <find>General</find>
+      <find>confirmation</find>
+      <find>btn</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/var/cache/dev</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../otel" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/API/CheckUsernameBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/addJob.html" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/send-mail.html.twig" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Controller/MailController.php" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/addJobFrom.html" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/addJobFrom.html.twig" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/newJob.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/addJobForm.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Controller/JobController.php" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/template.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Entity/Job.php" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Entity/JobType.php" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Entity/User_Fos.php" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/profile.html.twig.html" />
+        <option value="$PROJECT_DIR$/web/assets/js/file-input.js" />
+        <option value="$PROJECT_DIR$/web/assets/js/krajee.js" />
+        <option value="$PROJECT_DIR$/web/assets/js/bootstrap-confirmation.min.js" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/web/assets/css/file-input.css" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/admin.html.twig" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/profile.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/editJobType.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Controller/JobTypeController.php" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/newJobType.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/showJobType.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/newJob.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/editJob.html.twig" />
+        <option value="$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Twig/UsersExtension.php" />
+        <option value="$PROJECT_DIR$/src/API/CheckUsernameBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Users/newUser.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.en.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/template.html.twig" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/src/User/UserBundle/Resources/views/Users/show-user.html.twig" />
+        <option value="$PROJECT_DIR$/../otel/src/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/../otel/config/packages/doctrine.yaml" />
+        <option value="$PROJECT_DIR$/../otel/.env" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="68" />
+    <option name="y" value="48" />
+    <option name="width" value="1279" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="task_management_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_management_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otel" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_management_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otel" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_management_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_management_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_management_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_management_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_management_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../otel" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/assets/fonts" />
+      <recent name="$PROJECT_DIR$/web/assets/css" />
+      <recent name="$PROJECT_DIR$/web/assets" />
+      <recent name="$PROJECT_DIR$/web/assets/scss" />
+      <recent name="$PROJECT_DIR$/web/assets/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/assets/css" />
+      <recent name="$PROJECT_DIR$/web/assets/uploads" />
+      <recent name="$PROJECT_DIR$/app/Resources/views" />
+      <recent name="$PROJECT_DIR$/app/Resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25be45c8-fafd-4daf-8470-e8aec8431b89" name="Default" comment="" />
+      <created>1531116950247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531116950247</updated>
+      <workItem from="1531116951542" duration="25483000" />
+      <workItem from="1531201387097" duration="28000" />
+      <workItem from="1531201418384" duration="29059000" />
+      <workItem from="1531286921009" duration="32338000" />
+      <workItem from="1531373276233" duration="34361000" />
+      <workItem from="1531460600784" duration="24344000" />
+      <workItem from="1531487326979" duration="214000" />
+      <workItem from="1531488181386" duration="3551000" />
+      <workItem from="1531493529449" duration="358000" />
+      <workItem from="1531719777325" duration="2513000" />
+      <workItem from="1531750545253" duration="95000" />
+      <workItem from="1531892695836" duration="880000" />
+      <workItem from="1531894034572" duration="648000" />
+      <workItem from="1531996023952" duration="637000" />
+      <workItem from="1532000200188" duration="3433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="157942000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31125298" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51157224" side_tool="true" visible="true" weight="0.3295082" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4884278" visible="true" weight="0.3295082" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49880287" weight="0.21311475" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/admin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Entity/User_Fos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1038">
+          <caret line="174" column="35" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/newJob.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="29" column="24" selection-end-line="77" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API/CheckUsernameBundle/APICheckUsernameBundle.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Job/JobBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="96" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Job/JobBundle/Controller/JobTypeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API/CheckUsernameBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Job/JobBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="49" column="77" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Resources/views/Users/newUser.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Twig/UsersExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Resources/views/Default/send-mail.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/confirmed.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/email_confirmation.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/check_email.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.tr.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/email.txt.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/registration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/registration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Job/JobBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" selection-start-line="64" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/template.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Resources/views/Users/show-user.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/UserBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="327" column="28" selection-start-line="327" selection-start-column="28" selection-end-line="327" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/src/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-492" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/src/Entity/FosUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/src/Entity/Hotel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/config/routes.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/config/packages/doctrine_migrations.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/.env.dist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/src/Migrations/Version20180717135615.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../otel/src/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

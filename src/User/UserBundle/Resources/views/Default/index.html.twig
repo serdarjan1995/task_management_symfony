@@ -1,0 +1,34 @@
+{% extends "::template.html.twig" %}
+
+{% block title %}Home{% endblock %}
+{% block pagename %}Welcome!{% endblock %}
+{% block content %}
+    <div class="main-content">
+    <div class="row">
+    {%  if app.session.flashBag.has('signup_success') %}
+        {% for msg in app.session.flashBag.get('signup_success') %}
+            {{ msg }}
+
+        {% endfor %}
+    {%  endif %}
+
+    {% if is_granted('ROLE_ADMIN') %}
+        Hello {{ user.name }} {{ user.lastname }},
+        <br/>
+        Your last login was {{ user.lastlogin|date('Y-m-d H-i-s') }} <br/>
+        <a href="{{ path('logout') }}">logout</a><br/>
+        <a href="{{ path('admin') }}">admin panel</a>
+
+
+    {% elseif is_granted('ROLE_USER') %}
+            You are ordinary user.<br/>
+        Hello {{ user.name }} {{ user.lastname }},
+        <br/>
+        Your last login was {{ user.lastlogin|date('Y-m-d H-i-s') }} <br/>
+        <a href="{{ path('logout') }}">logout</a>
+        {% else %}
+            <h1>Hello Guest</h1>
+    {%  endif %}
+    </div>
+    </div>
+{% endblock %}

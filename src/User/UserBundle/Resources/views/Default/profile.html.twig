@@ -1,0 +1,122 @@
+{% extends '::template.html.twig' %}
+
+{% block title %}Profile{% endblock %}
+{% block content %}
+    <div class="main-content">
+        <div class="row">
+            <div class="widget">
+                <div class="widget-content-white glossed">
+                    <div class="padded">
+                        <div class="col-sm-4 text-center">
+                            <div class="kv-avatar">
+                                <form  action="{{ path('avatar_upload') }}" method="post" enctype="multipart/form-data">
+                                <div class="file-input file-input-ajax-new img-responsive">
+                                    <div class="file-preview">
+                                    <div class=" file-drop-zone" >
+                                        <div class="file-preview-thumbnails">
+                                            <div class="file-default-preview">
+
+                                                <img id="profile_photo" class="img-responsive" src="
+                                                {% if user.getProfilePhoto() != '' %}
+                                                    {{ asset('uploads/'~user.getProfilePhoto()) }}
+                                                {%else  %}
+                                                    {{ asset('uploads/avatar-default.jpg') }}
+                                                {% endif %}
+                                                " alt="Your Avatar" style="margin: 0 auto; max-height: 150px; max-width: 180px;">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                        <div class="btn btn-primary btn-file" id="load_btn">
+                                            <i class="glyphicon glyphicon-folder-open"></i>
+                                            <input id="profile_load" style="opacity: 0" name="profile_photo" type="file">
+                                        </div>
+                                        <label id="filename_label"></label>
+                                        <input type="submit" id="submit_avatar" style="display: none" class="btn btn-primary" value="Upload">
+                                        {% if user.getProfilePhoto() != '' %}
+                                            <a href="{{ path('avatar_delete') }}" class="btn btn-warning" >Remove</a>
+                                        {% endif %}
+                                    </div>
+
+                                </div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-offset-6">
+                            <form method="post" action="{{ path('update_profile') }}">
+                                <h3 class="form-title form-title-first"><i class="icon-lock"></i> Profile info </h3>
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" maxlength="45" class="form-control" name="name" value="{{ app.user.name }}" placeholder="Enter your name" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="text" maxlength="45" class="form-control" name="lastname" value="{{ app.user.lastname }}" placeholder="Enter your last name" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Birthdate</label>
+                                    <input type="date" class="form-control" name="birthdate" value="{{ app.user.birthdate|date('Y-m-d') }}" placeholder="Enter your birthday">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" maxlength="20" class="form-control" name="password" placeholder="Leave empty to have current password">
+                                </div>
+
+                                <input type="submit" class="button-circle btn-success " value="Update My Profile"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        .kv-avatar .krajee-default.file-preview-frame,.kv-avatar .krajee-default.file-preview-frame:hover {
+            margin: 0;
+            padding: 0;
+            border: none;
+            box-shadow: none;
+            text-align: center;
+        }
+        .kv-avatar {
+            display: inline-block;
+        }
+        .kv-avatar .file-input {
+            display: table-cell;
+            width: 213px;
+        }
+        .kv-reqd {
+            color: red;
+            font-family: monospace;
+            font-weight: normal;
+        }
+    </style>
+    <link rel="stylesheet" href="{{ asset('assets/css/file-input.css') }}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+{% endblock %}
+
+{%  block javascripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#profile_load").change(function(){
+                $("#submit_avatar").show();
+                var $this = $(this);
+                $("#filename_label").html($this.val().split('\\').pop());
+            });
+        });
+
+    </script>
+
+
+
+{%  endblock %}

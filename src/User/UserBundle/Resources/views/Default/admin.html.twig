@@ -1,0 +1,10 @@
+
+{% extends "::template.html.twig" %}
+
+{% block title %}Admin{% endblock %}
+{% block pagename %}Admin Dashboard{% endblock %}
+{% block content %}
+    <a href="{{ path('job_show') }}">Manage Jobs</a> :||:
+    <a href="">Manage Job Types</a> :||:
+    <a href="">Manage Users</a>
+{% endblock %}

@@ -1,0 +1,130 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    {{ user_count()}}
+<div class="all-wrapper">
+    <div class="row">
+
+    <div class="col-md-3">
+        <div class="text-center">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="side-bar-wrapper collapse navbar-collapse navbar-ex1-collapse">
+            <a href="#" class="logo hidden-sm hidden-xs">
+                {% if app.user.getProfilePhoto() == '' %}
+                    <i class="icon-user"></i>
+                {% else %}<div class="row"><img src="{{ asset('uploads/'~app.user.getProfilePhoto())}}"
+                               class="img-responsive" style="margin: 0 auto; max-height: 70px; max-width: 100px;" alt="Profile photo"></div>
+                {% endif %}
+                <span>{{ app.user.username }}</span>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="SEARCH" class="form-control">
+            </div>
+            <ul class="side-menu">
+                <li>
+                    <a href="notifications.html">
+                        <span class="badge badge-notifications pull-right alert-animated">5</span>
+                        <i class="icon-flag"></i> Notifications
+                    </a>
+                </li>
+            </ul>
+            <div class="relative-w">
+                <ul class="side-menu">
+                    {% if is_granted('ROLE_ADMIN') %}
+                    <li>
+                        <a href="{{ path('admin') }}">
+                            <span class="badge pull-right">17</span>
+                            <i class="icon-dashboard"></i> Dashboard
+                        </a>
+                    </li>
+                    <li>
+
+                        <a href="" class="is-dropdown-menu">
+                            <span class="badge pull-right">{{ job_count()|default('error') }}</span>
+                            <i class="icon-suitcase"></i>Jobs
+                        </a>
+
+                        <ul>
+                            <li>
+                                <a href="{{ path('job_show') }}">
+                                    <i class="icon-archive"></i>
+                                    Job Management
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ path('job_type_show') }}">
+                                    <i class="icon-briefcase"></i>
+                                    Job Types
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{{ path('show_users') }}">
+                            <span class="badge pull-right">{{ user_count()|default('error') }}</span>
+                            <i class="icon-user"></i> Users
+                        </a>
+                    </li>
+                    {% endif  %}
+
+                    {% if not is_granted('ROLE_ADMIN') %}
+                        <li>
+                            <a href="">
+                                <span class="badge pull-right">30</span>
+                                <i class="icon-star"></i> USERMENU#1
+                            </a>
+                        </li>
+                        <li>
+
+                            <a href="" class="is-dropdown-menu">
+                                <span class="badge pull-right"></span>
+                                <i class="icon-retweet"></i>DROPDOWN#
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="icon-archive"></i>
+                                        USERMENU#2
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="icon-folder-close"></i>
+                                        USERMENU#3
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    {% endif  %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="content-wrapper">
+            <div class="content-inner">
+                <div class="page-header">
+                    <div class="header-links hidden-xs">
+                        <a href="#"><i class="icon-comments"></i> User Alerts</a>
+                        <a href="{{ path('profile') }}"><i class="icon-cog"></i> Profile</a>
+                        <a href="{{ path('logout') }}"><i class="icon-signout"></i> Logout</a>
+                    </div>
+                    <h1><i class="icon-bar-chart"></i>{% block pagename %}{% endblock %}</h1>
+                </div>
+
+                {% block content %}{% endblock content %}
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+{% endblock %}

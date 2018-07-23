@@ -1,0 +1,220 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Login{% endblock %}
+
+
+{% block stylesheets %}
+{% endblock %}
+
+
+{% block javascripts %}
+    <script type="text/javascript">
+        function show_signup()
+        {
+            $("#signin").fadeOut(500, function() {
+                $("#signup").fadeIn();
+            });
+        }
+        function show_signin()
+        {
+            $("#signup").fadeOut(500, function() {
+                $("#signin").fadeIn();
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#username").keyup(function() {
+                var username = $("#username").val(); // text in the field
+                $.ajax({
+                    url: 'http://localhost/task_management_symfony/web/app_dev.php/api-check-username',
+                    data: {'username': username},
+                    method: "POST",
+                    success: function(result) {
+
+                        var exists = result.status;
+
+                        // Show Message
+                        if (exists == 1) {
+                            $("#check-user").text("Username already exists");
+                            $("#check-user").attr("style","color:red");
+                        } else if(exists == -1){
+                            $("#check-user").text("Not Valid");
+                            $("#check-user").attr("style","color: orange");
+                        } else {
+                            $("#check-user").text("You can use this username");
+                            $("#check-user").attr("style","color: green");
+
+                        }
+                    }// ./function end
+                });
+            }); ///   ./username.keyup()
+
+            $("#email").keyup(function() {
+                var email = $("#email").val(); // text in the field
+                $.ajax({
+                    url: 'http://localhost/task_management_symfony/web/app_dev.php/api-check-email',
+                    data: {'email': email},
+                    method: "POST",
+                    success: function(result) {
+
+                        var exists = result.status;
+
+                        // Show Message
+                        if (exists == 1) {
+                            $("#check-email").text("E-mail was already registered");
+                            $("#check-email").attr("style","color:red");
+                        } else if(exists == -1){
+                            $("#check-email").text("Not Valid");
+                            $("#check-email").attr("style","color: orange");
+                        }
+                        else {
+                            $("#check-email").text("");
+                            $("#check-email").attr("style","color: green");
+
+                        }
+                    }// ./function end
+                });
+            }); ///   ./username.keyup()
+
+
+        });
+
+    </script>
+
+{% endblock %}
+
+
+{% block body %}
+
+
+
+<div class="all-wrapper no-menu-wrapper">
+    <div class="login-logo-w">
+    <a href="#" class="logo">
+    <i class="icon-chevron-sign-down"></i>
+    <span>Task Management</span>
+</a>
+</div>
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+    <div class="content-wrapper bold-shadow">
+    <div class="content-inner">
+    <div class="main-content main-content-grey-gradient no-page-header">
+    <div class="main-content-inner">
+    {% set token = csrf_token('thetea') %}
+    <section id="signin" style="display: block">
+        <!-- USER SIGN IN FORM -->
+        <form  action="{{ path('login_user_fos') }}" method="post" role="form">
+        <h3 class="form-title form-title-first"><i class="icon-lock"></i> Sign in </h3>
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" maxlength="45" class="form-control" name="username" placeholder="Enter your username" required>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" maxlength="100" class="form-control" name="password" placeholder="Your password" required>
+        </div>
+
+        <input type="submit" class="btn btn-primary btn-lg" value="Sign in"/>
+            <button type="button" onclick="show_signup();" class="btn btn-light">Not signed up yet?</button>
+            <input  type="hidden" name="_csrf_security_token" value="{{ token }}"/>
+        </form>
+        <!-- ./USER SIGN IN FORM -->
+    </section>
+
+
+    <!-- USER SIGN UP FORM -->
+    <section id="signup" style="display: none">
+        <form  action="{{ path('new_user_fos') }}" method="post" role="form">
+            <h3 class="form-title form-title-first"><i class="icon-lock"></i> Sign up </h3>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" maxlength="45" class="form-control" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label>Last Name</label>
+        <input type="text" maxlength="45" class="form-control" name="lastname" placeholder="Enter your last name" required>
+        </div>
+        <div class="form-group">
+            <label>E-mail</label>
+            <input type="email" maxlength="45" class="form-control" name="email" id="email" placeholder="Enter your e-mail" required>
+            <div id="check-email" class="help-block pull-right" style=""></div>
+        </div>
+        <div class="form-group">
+            <label>Birthdate</label>
+            <input type="date" class="form-control" max="2018-07-01" name="birthdate" placeholder="Enter your birthday">
+        </div>
+        <div class="form-group">
+        <label>Username</label>
+            <input type="text" maxlength="45" class="form-control" name="username" id="username" placeholder="Enter your username" required>
+            <div id="check-user" class="help-block pull-right" style=""></div>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" maxlength="20" class="form-control" name="password" placeholder="Your password" required>
+        </div>
+
+        <input type="submit" class="btn btn-primary btn-lg" value="Sign up"/>
+            <button type="button" onclick="show_signin();" class="btn btn-light"> Already a user? </button>
+        <input  type="hidden" name="_csrf_security_token" value="{{ token }}"/>
+        </form>
+        <!-- ./USER SIGN UP FORM -->
+    </section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Modal -->
+<div id="message_modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Message</h4>
+    </div>
+    <div class="modal-body">
+<p>
+
+    {%  if app.session.flashBag.has('message') %}
+
+        {% set modal_activate = 1 %}
+
+        {% for msg in app.session.flashBag.get('message') %}
+
+            {{ msg }}
+
+        {% endfor %}
+
+    {%  endif %}
+</p>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+    </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- script-modal -->
+    {%  if modal_activate is defined and modal_activate==1 %}
+
+        <script>
+            $(document).ready(function(){
+                $("#message_modal").modal();
+            });
+        </script>
+    {%  endif %}
+    <!-- /.script-modal ends here -->
+    </body>
+
+
+    </html>
+
+
+{% endblock %}

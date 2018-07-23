@@ -1,0 +1,7 @@
+api_check_username:
+    path:     /api-check-username
+    defaults: { _controller: APICheckUsernameBundle:Default:checkUsername }
+
+api_check_email:
+    path:     /api-check-email
+    defaults: { _controller: APICheckUsernameBundle:Default:checkEmail }

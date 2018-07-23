@@ -1,0 +1,38 @@
+api_check_username:
+    resource: "@APICheckUsernameBundle/Resources/config/routing.yml"
+    prefix:   /
+
+message:
+    resource: "@MessageBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+job_job_job_type:
+    resource: "@JobJobBundle/Controller/JobTypeController.php"
+    type:     annotation
+
+user_user:
+    resource: "@UserBundle/Controller/UserController.php"
+    type:     annotation
+
+job_job:
+    resource: "@JobJobBundle/Resources/config/routing.yml"
+    prefix:   /
+
+user:
+    resource: "@UserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+logout:
+    path: /logout
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+
+
+pageNotFound:
+   path:  /{path}
+   defaults: { _controller: UserBundle:Default:index, path: '' }
+   requirements:
+       path: .*

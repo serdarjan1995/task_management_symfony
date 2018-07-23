@@ -1,0 +1,78 @@
+{% extends '::template.html.twig' %}
+
+{% block title %}Assign New Job{% endblock %}
+{% block pagename %} Assign New Job Form{% endblock %}
+{% block content %}
+<div class="main-content">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="widget">
+                <div class="widget-content-white glossed">
+                <div class="padded">
+                    <form action="{{ path('job_assign') }}" method="post" role="form">
+                        <!--<div class="widget-controls pull-right">
+                            <a href="#" class="widget-link-remove"><i class="icon-minus-sign"></i></a>
+                            <a href="#" class="widget-link-remove"><i class="icon-remove-sign"></i></a>
+                        </div>-->
+                        <h3 class="form-title form-title-first"><i class="icon-terminal"></i> Assign New Job</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                        <label>Assign To:</label>
+                                        <select name="user" id="jobtype" class="selectpicker" data-live-search="true" tabindex="-98">
+                                            {% for user in users %}
+                                                <option value="{{ user.id }}"> {{ user.name}} {{ user.lastname}}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Job Type: </label>
+                                    <select name="jobtype" id="jobtype" class="selectpicker" data-live-search="true" tabindex="-98">
+                                        {% for jobtype in jobtypes %}
+                                            <option value="{{ jobtype.getId() }}">
+                                                {{ jobtype.getJobType() }}
+                                            </option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Deadline: </label>
+                            <input type="date" name="deadline_date">
+                            <input type="time" name="deadline_time">
+                        </div>
+                        <div class="form-group">
+                            <label>Job Description: </label>
+                            <textarea class="form-control" rows="5" name="job_desc"></textarea>
+                        </div>
+
+                        <input type="submit" class="btn btn-primary" value="Assign">
+
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/bootstrap-select.js') }}"></script>
+
+
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap-select.css') }}"/>
+
+{% endblock %}

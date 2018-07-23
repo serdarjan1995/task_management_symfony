@@ -1,0 +1,68 @@
+user_homepage:
+    path:     /home
+    defaults: { _controller: UserBundle:Default:index }
+
+login:
+    path:     /login
+    defaults: { _controller: UserBundle:User:loginUserFos }
+
+check_user:
+    path:     /check-user
+    defaults: { _controller: UserBundle:User:checkUser }
+
+new_user:
+    path:     /new-user
+    defaults: { _controller: UserBundle:User:newUser }
+
+login_user_fos:
+    path:     /
+    defaults: { _controller: UserBundle:User:loginUserFos }
+
+new_user_fos:
+    path:     /new-fos-user
+    defaults: { _controller: UserBundle:User:newUserFos }
+
+admin:
+    path:     /admin
+    defaults: { _controller: UserBundle:User:admin }
+
+profile:
+    path:     /profile
+    defaults: { _controller: UserBundle:User:profile }
+
+update_profile:
+    path:     /profile-update
+    defaults: { _controller: UserBundle:User:updateProfile }
+
+avatar_upload:
+    path:     /avatar-upload
+    defaults: { _controller: UserBundle:User:uploadAvatar }
+
+avatar_delete:
+    path:     /avatar-delete
+    defaults: { _controller: UserBundle:User:deleteAvatar }
+
+send_mail:
+    path:     /send-email
+    defaults: { _controller: UserBundle:Mail:sendMail}
+
+
+show_users:
+    path:     /show-users
+    defaults: { _controller: UserBundle:User:showUsers}
+
+create_user:
+    path:     /create-user
+    defaults: { _controller: UserBundle:User:createUser}
+
+addUser:
+    path:     /add-user
+    defaults: { _controller: UserBundle:User:newUserFromAdmin}
+
+deleteUser:
+    path:     /delete-user/{u}
+    defaults: { _controller: UserBundle:User:deleteUser}
+
+promoteUser:
+    path:     /promote-user/{u}
+    defaults: { _controller: UserBundle:User:promoteUser}

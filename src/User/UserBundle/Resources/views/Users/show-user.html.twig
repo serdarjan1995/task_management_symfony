@@ -1,0 +1,111 @@
+{% extends '::template.html.twig' %}
+
+{% block title %}Show Users{% endblock %}
+{% block pagename %} All Users {% endblock %}
+{% block content %}
+    <div class="main-content">
+        <div class="widget">
+            <h3 class="section-title first-title"><i class="icon-table"></i> Users:</h3>
+            <div class="widget-content-white glossed">
+                <div class="padded">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>username</th>
+                            <th>email</th>
+                            <th>birthdate</th>
+                            <th>signup_date</th>
+                            <th>last_login</th>
+                            <th>role</th>
+                            <th>enabled</th>
+                            <th class="text-right">
+                                <a href="{{ path('create_user') }}" class="btn btn-success btn-xs">
+                                    <i class="icon-plus"></i> add</a>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {%  for user in users %}
+                            <tr>
+                                <td>{{ user.id }}</td>
+                                <td>
+                                    <a tabindex="0" class="btn btn-default btn-xs" title="Name Surname"
+                                       data-toggle="popover" data-placement="right" data-trigger="focus"
+                                       data-content="{{ user.name }} {{ user.lastname }}"> <i class="icon-question-sign"></i></a>
+                                    {{ user.username }}
+                                </td>
+                                <td>{{ user.email }}</td>
+                                <td>{{ user.birthdate|date('Y-m-d') }}</td>
+                                <td>{{ user.signupdate|date('Y-m-d') }}</td>
+                                <td>{{ user.lastlogin|date('Y-m-d  H:i:s')  }}</td>
+                                <td>
+                                    {{ user.getRoles()[0]  }}
+                                    <a href="{{ path('promoteUser',{'u' : user.id}) }}"
+                                       class="btn btn-info btn-xs"  class="btn btn-info" data-toggle="confirmation" data-popout="true"
+                                       data-title="Are you sure?" data-btn-ok-label="Yes, Sure!" data-btn-ok-class="btn-sm btn-success"
+                                       data-btn-ok-icon-class="material-icons" data-btn-ok-icon-content="check"
+                                       data-btn-cancel-label="Cancel" data-btn-cancel-class="btn-sm btn-danger"
+                                       data-btn-cancel-icon-class="material-icons" data-btn-cancel-icon-content="close"
+                                       data-content="User will be admin!" data-placement="left">
+                                        <i class="icon-level-up"></i>
+                                    </a>
+                                </td>
+                                {% if  user.enabled == 1 %}
+                                    {% set span_class = 'label-success' %}
+                                {% else %}
+                                    {% set span_class = 'label-danger' %}
+                                {% endif %}
+                                <td><span class="label {{ span_class|default('label-info') }}">{{ user.enabled|default(0) }}</span></td>
+                                <td class="text-right">
+                                    <a href="{{ path('deleteUser',{'u' : user.id}) }}"
+                                       class="btn btn-danger btn-xs"  class="btn btn-danger" data-toggle="confirmation" data-popout="true"
+                                       data-title="Are you sure to delete user?" data-btn-ok-label="Yes, Sure!" data-btn-ok-class="btn-sm btn-success"
+                                       data-btn-ok-icon-class="material-icons" data-btn-ok-icon-content="check"
+                                       data-btn-cancel-label="Cancel" data-btn-cancel-class="btn-sm btn-danger"
+                                       data-btn-cancel-icon-class="material-icons" data-btn-cancel-icon-content="close"
+                                       data-content="User will be deleted permanently!" data-placement="left">
+                                        <i class="icon-remove"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/bootstrap-select.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/js/bootstrap-confirmation.js') }}"></script>
+
+
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+        });
+        $('.popover-dismiss').popover({
+            trigger: 'focus'
+        });
+
+        $('[data-toggle=confirmation]').confirmation({
+            rootSelector: '[data-toggle=confirmation]',
+            // other options
+        });
+    </script>
+
+
+{% endblock %}
+
+{% block stylesheets %}
+{% endblock %}

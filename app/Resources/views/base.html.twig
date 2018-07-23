@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700|Open+Sans:400,700,300'
+              rel='stylesheet'type='text/css'>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel='stylesheet' href='{{ asset('assets/scss/font-awesome.css') }}'>
+        <link rel='stylesheet' href='{{ asset('assets/css/fullcalendar') }}'>
+        <link rel='stylesheet' href='{{ asset('assets/css/datatables.css') }}'>
+        <link rel='stylesheet' href='{{ asset('assets/css/bootstrap.datatables.css') }}'>
+        <link rel='stylesheet' href='{{ asset('assets/scss/chosen.css') }}'>
+        <link rel='stylesheet' href='{{ asset('assets/css/app.css') }}'>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src='{{ asset('assets/js/jquery.sparkline.min.js') }}'></script>
+        <script src='{{ asset('assets/js/tab.js') }}'></script>
+        <script src='{{ asset('assets/js/dropdown.js') }}'></script>
+        <script src='{{ asset('assets/js/collapse.js') }}'></script>
+        <script src='{{ asset('assets/js/alert.js') }}'></script>
+        <script src='{{ asset('assets/js/transition.js') }}'></script>
+        <script src='{{ asset('assets/js/tooltip.js') }}'></script>
+        <script src='{{ asset('assets/js/jquery.knob.js') }}'></script>
+        <script src='{{ asset('assets/js/fullcalendar.min.js') }}'></script>
+        <script src='{{ asset('assets/js/datatables.min.js') }}'></script>
+        <script src='{{ asset('assets/js/chosen.jquery.min.js') }}'></script>
+        <script src='{{ asset('assets/js/bootstrap.datatables.js') }}'></script>
+        <script src='{{ asset('assets/js/raphael-min.js')}}'></script>
+        <script src='{{ asset('assets/js/morris-0.4.3.min.js') }}'></script>
+        <script src='{{ asset('assets/js/color_settings.js') }}'></script>
+        <script src='{{ asset('assets/js/application.js') }}'></script>
+
+    </head>
+    <body>
+
+        {% block body %}{% endblock %}
+
+    </body>
+    {% block javascripts %}{% endblock %}
+</html>
